@@ -3,6 +3,7 @@
 DIRECTORY="./icons/tokens"
 SLEEP_TIME=.1
 ETHEREUM_ADDRESS="0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+SBTC_CURVE_ADDRESS="0xC25099792E9349C7DD09759744ea681C7de2cb66"
 
 for folder_name in "$DIRECTORY"/*; do
   # check that .svg, 32px and 128 px exist
@@ -20,9 +21,16 @@ for folder_name in "$DIRECTORY"/*; do
 
   token=$(curl -s ${url} | jq -c '. | { address, name, symbol, decimals, chainId: 1 }')
 
+  # TODO: add separate check function
   if [ ${token_address} == ${ETHEREUM_ADDRESS} ]; then
-    token="{'address':'${ETHEREUM_ADDRESS}','name':'ethereum','symbol':'ETH','decimals':'18','chainId':1}"
+    token="{'address':'${ETHEREUM_ADDRESS}','name':'Ethereum','symbol':'ETH','decimals':'18','chainId':1}"
   fi
+
+  if [ ${token_address} == ${SBTC_CURVE_ADDRESS} ]; then
+    token="{'address':'${SBTC_CURVE_ADDRESS}','name':'LP tBTC Curve','symbol':'TBTCCURVE','decimals':'18','chainId':1}"
+  fi
+
+
   # check for broken response
   if [[ ${token} == *"null"* ]]; then
     echo "Failed to add token: ${token_address}"

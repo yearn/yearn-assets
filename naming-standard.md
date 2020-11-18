@@ -1,7 +1,3 @@
----
-tags: brand, docs-v2
----
-
 # Yearn Naming Standard
 
 ## yVaults

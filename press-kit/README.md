@@ -30,7 +30,7 @@ We have 2 fonts, one primary, one secondary.
 
 We use the primary font for almost everything, like titles, paragraphs and logo.
 
-And we use the secondary font for any text block that requires same width lines.
+And we use the secondary font for numerals/metrics and any text block that requires same width lines.
 
 Primary font: [Roboto](https://github.com/googlefonts/roboto), [example](https://fonts.google.com/specimen/Roboto?preview.text=yearn.finance%20is%20a%20blue%20chip&preview.text_type=custom)
 

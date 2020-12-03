@@ -34,4 +34,4 @@ And we use the secondary font for any text block that requires same width lines.
 
 Primary font: [Roboto](https://github.com/googlefonts/roboto), [example](https://fonts.google.com/specimen/Roboto?preview.text=yearn.finance%20is%20a%20blue%20chip&preview.text_type=custom)
 
-Secondary font: [Roboto Mono], [example](https://fonts.google.com/specimen/Roboto+Mono?preview.text=yearn.finance%20is%20a%20blue%20chip&preview.text_type=custom&query=roboto+mono)
+Secondary font: [Roboto Mono](https://github.com/googlefonts/RobotoMono), [example](https://fonts.google.com/specimen/Roboto+Mono?preview.text=yearn.finance%20is%20a%20blue%20chip&preview.text_type=custom&query=roboto+mono)

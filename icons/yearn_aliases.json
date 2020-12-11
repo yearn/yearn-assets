@@ -106,5 +106,25 @@
     "name": "LINK",
     "address": "0x881b06da56BB5675c54E4Ed311c21E54C5025298",
     "symbol": "yvLINK"
+  },
+  {
+    "name": "HEGIC",
+    "address": "0x19db27D2E9E4B780CF9A296D575aBbddEe1578DA",
+    "symbol": "yvHEGIC"
+  },
+  {
+    "name": "SushiSwap YFI-ETH Pool",
+    "address": "0x27Eb83254D900AB4F9b15d5652d913963FeC35e3",
+    "symbol": "yvSushi-YFI-ETH"
+  },
+  {
+    "name": "DAI v2",
+    "address": "0xBFa4D8AA6d8a379aBFe7793399D3DdaCC5bBECBB",
+    "symbol": "yvDAI"
+  },
+  {
+    "name": "USDC v2",
+    "address": "0xe2F6b9773BF3A015E2aA70741Bde1498bdB9425b",
+    "symbol": "yvUSDC"
   }
 ]

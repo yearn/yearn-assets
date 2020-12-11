@@ -6,6 +6,7 @@
   },
   {
     "name": "Curve Compound Pool",
+    "symbol": "crvCOMP",
     "address": "0x845838DF265Dcd2c412A1Dc9e959c7d08537f8a2"
   },
   {
@@ -15,15 +16,17 @@
   },
   {
     "name": "Curve 3pool",
+    "symbol": "3crv",
     "address": "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
   },
   {
     "name": "Curve Y Pool",
-    "symbol": "yvCurve-Y",
+    "symbol": "yUSD",
     "address": "0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c"
   },
   {
     "name": "Curve Y Pool",
+    "symbol": "yCRV",
     "address": "0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8"
   },
   {
@@ -33,6 +36,7 @@
   },
   {
     "name": "Curve BUSD Pool",
+    "symbol": "crvBUSD",
     "address": "0x3B3Ac5386837Dc563660FB6a0937DFAa5924333B"
   },
   {
@@ -42,6 +46,7 @@
   },
   {
     "name": "Curve sBTC Pool",
+    "symbol": "crvSBTC",
     "address": "0x075b1bb99792c9E1041bA13afEf80C91a1e70fB3"
   },
   {
@@ -51,6 +56,7 @@
   },
   {
     "name": "Curve GUSD Pool",
+    "symbol": "crvGUSD",
     "address": "0xD2967f45c4f384DEEa880F807Be904762a3DeA07"
   },
   {
@@ -60,71 +66,72 @@
   },
   {
     "name": "Curve mUSD Pool",
+    "symbol": "crvMUSD",
     "address": "0x1AEf73d49Dedc4b1778d0706583995958Dc862e6"
   },
   {
-    "name": "DAI",
-    "address": "0xACd43E627e64355f1861cEC6d3a6688B31a6F952",
-    "symbol": "yvDAI"
+    "name": "DAI v1",
+    "symbol": "yvDAI",
+    "address": "0xACd43E627e64355f1861cEC6d3a6688B31a6F952"
   },
   {
     "name": "TUSD",
-    "address": "0x37d19d1c4E1fa9DC47bD1eA12f742a0887eDa74a",
-    "symbol": "yvTUSD"
+    "symbol": "yvTUSD",
+    "address": "0x37d19d1c4E1fa9DC47bD1eA12f742a0887eDa74a"
   },
   {
-    "name": "USDC",
-    "address": "0x597aD1e0c13Bfe8025993D9e79C69E1c0233522e",
-    "symbol": "yvUSDC"
+    "name": "USDC v1",
+    "symbol": "yvUSDC",
+    "address": "0x597aD1e0c13Bfe8025993D9e79C69E1c0233522e"
   },
   {
     "name": "USDT",
-    "address": "0x2f08119C6f07c006695E079AAFc638b8789FAf18",
-    "symbol": "yvUSDT"
+    "symbol": "yvUSDT",
+    "address": "0x2f08119C6f07c006695E079AAFc638b8789FAf18"
   },
   {
-    "name": "GUSD",
-    "address": "0xec0d8D3ED5477106c6D4ea27D90a60e594693C90",
-    "symbol": "yvGUSD"
+    "name": "GUSD v1",
+    "symbol": "yvGUSD",
+    "address": "0xec0d8D3ED5477106c6D4ea27D90a60e594693C90"
   },
   {
     "name": "YFI",
-    "address": "0xBA2E7Fed597fd0E3e70f5130BcDbbFE06bB94fe1",
-    "symbol": "yvYFI"
+    "symbol": "yvYFI",
+    "address": "0xBA2E7Fed597fd0E3e70f5130BcDbbFE06bB94fe1"
   },
   {
     "name": "aLINK",
-    "address": "0x29E240CFD7946BA20895a7a02eDb25C210f9f324",
-    "symbol": "yvaLINK"
+    "symbol": "yvaLINK",
+    "address": "0x29E240CFD7946BA20895a7a02eDb25C210f9f324"
   },
   {
     "name": "WETH",
-    "address": "0xe1237aA7f535b0CC33Fd973D66cBf830354D16c7",
-    "symbol": "yvWETH"
+    "symbol": "yvWETH",
+    "address": "0xe1237aA7f535b0CC33Fd973D66cBf830354D16c7"
   },
   {
     "name": "LINK",
-    "address": "0x881b06da56BB5675c54E4Ed311c21E54C5025298",
-    "symbol": "yvLINK"
+    "symbol": "yvLINK",
+    "address": "0x881b06da56BB5675c54E4Ed311c21E54C5025298"
   },
   {
     "name": "HEGIC",
-    "address": "0x19db27D2E9E4B780CF9A296D575aBbddEe1578DA",
-    "symbol": "yvHEGIC"
+    "symbol": "yvHEGIC",
+    "address": "0x19db27D2E9E4B780CF9A296D575aBbddEe1578DA"
   },
   {
     "name": "SushiSwap YFI-ETH Pool",
-    "address": "0x27Eb83254D900AB4F9b15d5652d913963FeC35e3",
-    "symbol": "yvSushi-YFI-ETH"
+    "symbol": "yvSushi-YFI-ETH",
+    "address": "0x27Eb83254D900AB4F9b15d5652d913963FeC35e3"
   },
   {
     "name": "DAI v2",
-    "address": "0xBFa4D8AA6d8a379aBFe7793399D3DdaCC5bBECBB",
-    "symbol": "yvDAI"
+    "symbol": "yvDAI",
+    "address": "0xBFa4D8AA6d8a379aBFe7793399D3DdaCC5bBECBB"
   },
   {
     "name": "USDC v2",
-    "address": "0xe2F6b9773BF3A015E2aA70741Bde1498bdB9425b",
-    "symbol": "yvUSDC"
+    "symbol": "yvUSDC",
+    "address": "0xe2F6b9773BF3A015E2aA70741Bde1498bdB9425b"
   }
 ]

@@ -9,9 +9,9 @@
   - Name: `${token.symbol()} or override yVault`
   - Symbol: `yv${token.symbol()} or override`
 - A `version` field is included in the token contract to correspond to the major yVault release version.
-	- Additionally, developers may find it useful to denote `version` within the `name` field itself to help clarify the token to be deposited. Useful examples include Uniswap LPs (below), and also v1 vs v2 Aave aTokens. 
-- The predominant use case for name and symbol override is for LP tokens. The use of the term `Pool` or `LP` is interchangeable, and will be selected based on colloquial use for each protocol. 
-	- For instance, Curve and Balancer LP positions are typically referred to as pools since they can contain more than two tokens, while Uniswap and SushiSwap positions are typically referred to as LPs. 
+  - Additionally, developers may find it useful to denote `version` within the `name` field itself to help clarify the token to be deposited. Useful examples include Uniswap LPs (below), and also v1 vs v2 Aave aTokens.
+- The predominant use case for name and symbol override is for LP tokens. The use of the term `Pool` or `LP` is interchangeable, and will be selected based on colloquial use for each protocol.
+  - For instance, Curve and Balancer LP positions are typically referred to as pools since they can contain more than two tokens, while Uniswap and SushiSwap positions are typically referred to as LPs.
   - Curve
     - Name: `Curve + pool + Pool yVault`
       - **Examples:** `Curve sBTC Pool yVault`, `Curve 3pool yVault`, `Curve Y Pool yVault`
@@ -36,12 +36,12 @@
       - **Examples:** `SushiSwap USDT-WETH LP yVault`, `Uniswap v2 WBTC-WETH LP yVault`
     - Symbol: `yvSushi-TOKEN-TOKEN`
       - **Examples:** `yvSushi-USDT-WETH`, `yvSushi-WBTC-WETH`
-      
+
 ## yVault Want Token
 
-- In Yearn's UI, it may be useful to denote the desired token to deposit into a specific yVault. For basic ERC20 `want` tokens, `name` and `symbol` can be pulled directly from the token contract and utilized as-is. 
-	- **Examples:** `USD Coin`, `USDC`, `ChainLink Token`, `LINK`
-- However, for LP positions, naming needs to be standardized. 
+- In Yearn's UI, it may be useful to denote the desired token to deposit into a specific yVault. For basic ERC20 `want` tokens, `name` and `symbol` can be pulled directly from the token contract and utilized as-is.
+  - **Examples:** `USD Coin`, `USDC`, `ChainLink Token`, `LINK`
+- However, for LP positions, naming needs to be standardized.
   - Curve
     - Name: `Curve + pool + Pool`
       - **Examples:** `Curve sBTC Pool`, `Curve 3pool`, `Curve Y Pool`, `Curve Compound Pool`

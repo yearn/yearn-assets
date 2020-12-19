@@ -2,6 +2,40 @@
 
 ## yVaults
 
+### Dev Cheat Sheet (Examples)
+
+- Vanilla ERC20 tokens
+  - Name: `${token.symbol()} or override yVault`
+  - Symbol: `yv${token.symbol()} or override`
+    - **Examples:** `USDC yVault`, `yvUSDC`, `aLINK yVault`, `yvaLINK`
+- LP positions
+  - Curve
+    - Name: `Curve + pool + Pool yVault`
+      - **Examples:** `Curve sBTC Pool yVault`, `Curve 3pool yVault`, `Curve Y Pool yVault`
+    - Symbol: `yvCurve-pool`
+      - **Examples:** `yvCurve-sBTC`, `yvCurve-3pool`, `yvCurve-Y` (but we make an exception here and call it `yUSD`)
+    - Uniswap
+      - Name: `Uniswap + v${self.version()} + TOKEN-TOKEN + Pool yVault`
+        - **Examples:** `Uniswap v2 USDT-WETH Pool yVault`, `Uniswap v2 WBTC-WETH Pool yVault`
+      - Symbol: `yvUni-TOKEN-TOKEN`
+        - **Examples:** `yvUni-USDT-WETH`, `yvUni-WBTC-WETH`
+      - Note: Version was included for Uniswap LP tokens to help limit confusion between UNI-v2 LP tokens and upcoming UNI-v3 LP tokens.
+    - Balancer
+      - Name: `Balancer + TOKEN-TOKEN + Pool yVault`
+        - **Examples:** `Balancer USDT-WETH Pool yVault`, `Balancer WBTC-WETH Pool yVault`
+      - Symbol: `yvBal-TOKEN-TOKEN`
+        - **Examples:** `yvBal-USDT-WETH`, `yvBal-WBTC-WETH`
+    - SushiSwap
+      - Name: `SushiSwap + TOKEN-TOKEN + LP yVault`
+        - **Examples:** `SushiSwap USDT-WETH LP yVault`, `Uniswap v2 WBTC-WETH LP yVault`
+      - Symbol: `yvSushi-TOKEN-TOKEN`
+        - **Examples:** `yvSushi-USDT-WETH`, `yvSushi-WBTC-WETH`
+- Experimental
+  - No hard rules for `name` or `symbol`, just be sure to end `name` with "yVault".
+    - **Examples:** `yveCRV-DAO yVault`, `yveCRV-DAO`, `St. Banteg of Yearn Patron of Plebs Lido St. Ether yVault`, `sboypoplyvstETH`
+
+### Explanation
+
 - Acceptable alternative names include Yearn Vaults, or informally referring to the product as vaults.
 - When referring to a specific yVault, the preferred name is generally `TOKEN + yVault`; this matches the `name` field on the yVault contract. However, it is also acceptable to use `yvTOKEN + Vault`, `Yearn + TOKEN + Vault` or `yvTOKEN`; the latter matches `symbol` in the contract.
   - **Examples:** `DAI yVault`, `yvDAI Vault`, `Yearn DAI Vault`, or simply `yvDAI`
@@ -12,26 +46,26 @@
   - Additionally, developers may find it useful to denote `version` within the `name` field itself to help clarify the token to be deposited. Useful examples include Uniswap LPs (below), and also v1 vs v2 Aave aTokens.
 - The predominant use case for name and symbol override is for LP tokens. The use of the term `Pool` or `LP` is interchangeable, and will be selected based on colloquial use for each protocol.
   - For instance, Curve and Balancer LP positions are typically referred to as pools since they can contain more than two tokens, while Uniswap and SushiSwap positions are typically referred to as LPs.
-  - Curve
+  - **Curve**
     - Name: `Curve + pool + Pool yVault`
       - **Examples:** `Curve sBTC Pool yVault`, `Curve 3pool yVault`, `Curve Y Pool yVault`
       - In this case, `pool` is taken directly from Curve.fi's UI, and we can adjust for capitalization as needed. In the case of the `3pool`, the redundant "Pool" is removed.
     - Symbol: `yvCurve-pool`
       - **Examples:** `yvCurve-sBTC`, `yvCurve-3pool`, `yvCurve-Y`
     - Note: In this methodology, `yvCurve-Y` refers to the vault previously known as `yUSD`. Please see below for a more detailed discussion on proper use of `yUSD`.
-  - Uniswap
+  - **Uniswap**
     - Name: `Uniswap + v${self.version()} + TOKEN-TOKEN + LP yVault`
       - **Examples:** `Uniswap v2 USDT-WETH LP yVault`, `Uniswap v2 WBTC-WETH LP yVault`
     - Symbol: `yvUni-TOKEN-TOKEN`
       - **Examples:** `yvUni-USDT-WETH`, `yvUni-WBTC-WETH`
     - Note: Version was included for Uniswap LP tokens to help limit confusion between UNI-v2 LP tokens and upcoming UNI-v3 LP tokens.
-  - Balancer
+  - **Balancer**
     - Name: `Balancer + TOKEN-TOKEN + Pool yVault`
       - **Examples:** `Balancer USDT-WETH Pool yVault`, `Balancer WBTC-WETH Pool yVault`
     - Symbol: `yvBal-TOKEN-TOKEN`
       - **Examples:** `yvBal-USDT-WETH`, `yvBal-WBTC-WETH`
     - Note: Since Balancer allows more than two tokens per pool, append as many `TOKEN` as needed for the pool in question.
-  - SushiSwap
+  - **SushiSwap**
     - Name: `SushiSwap + TOKEN-TOKEN + LP yVault`
       - **Examples:** `SushiSwap USDT-WETH LP yVault`, `Uniswap v2 WBTC-WETH LP yVault`
     - Symbol: `yvSushi-TOKEN-TOKEN`

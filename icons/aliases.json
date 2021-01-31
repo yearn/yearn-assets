@@ -70,6 +70,96 @@
     "address": "0x1AEf73d49Dedc4b1778d0706583995958Dc862e6"
   },
   {
+    "name": "Curve stETH Pool yVault",
+    "symbol": "yvCurve-stETH",
+    "address": "0xdCD90C7f6324cfa40d7169ef80b12031770B4325"
+  },
+  {
+    "name": "Curve stETH Pool",
+    "symbol": "crvSTETH",
+    "address": "0x06325440d014e39736583c165c2963ba99faf14e"
+  },
+  {
+    "name": "Curve EURS Pool yVault",
+    "symbol": "yvCurve-EURS",
+    "address": "0x98B058b2CBacF5E99bC7012DF757ea7CFEbd35BC"
+  },
+  {
+    "name": "Curve EURS Pool",
+    "symbol": "crvEURS",
+    "address": "0x194ebd173f6cdace046c53eacce9b953f28411d1"
+  },
+  {
+    "name": "Curve USDN Pool yVault",
+    "symbol": "yvCurve-USDN",
+    "address": "0xFe39Ce91437C76178665D64d7a2694B0f6f17fE3"
+  },
+  {
+    "name": "Curve USDN Pool",
+    "symbol": "crvUSDN",
+    "address": "0x4f3E8F405CF5aFC05D68142F3783bDfE13811522"
+  },
+  {
+    "name": "Curve UST Pool yVault",
+    "symbol": "yvCurve-UST",
+    "address": "0xF6C9E9AF314982A4b38366f4AbfAa00595C5A6fC"
+  },
+  {
+    "name": "Curve UST Pool",
+    "symbol": "crvUST",
+    "address": "0x94e131324b6054c0D789b190b2dAC504e4361b53"
+  },
+  {
+    "name": "Curve oBTC Pool yVault",
+    "symbol": "yvCurve-oBTC",
+    "address": "0x7F83935EcFe4729c4Ea592Ab2bC1A32588409797"
+  },
+  {
+    "name": "Curve oBTC Pool",
+    "symbol": "crvOBTC",
+    "address": "0x2fE94ea3d5d4a175184081439753DE15AeF9d614"
+  },
+  {
+    "name": "Curve pBTC Pool yVault",
+    "symbol": "yvCurve-pBTC",
+    "address": "0x123964EbE096A920dae00Fb795FFBfA0c9Ff4675"
+  },
+  {
+    "name": "Curve pBTC Pool",
+    "symbol": "crvPBTC",
+    "address": "0xDE5331AC4B3630f94853Ff322B66407e0D6331E8"
+  },
+  {
+    "name": "Curve tBTC Pool yVault",
+    "symbol": "yvCurve-tBTC",
+    "address": "0x07FB4756f67bD46B748b16119E802F1f880fb2CC"
+  },
+  {
+    "name": "Curve tBTC Pool",
+    "symbol": "crvTBTC",
+    "address": "0x64eda51d3Ad40D56b9dFc5554E06F94e1Dd786Fd"
+  },
+  {
+    "name": "Curve BBTC Pool yVault",
+    "symbol": "yvCurve-BBTC",
+    "address": "0xA8B1Cb4ed612ee179BDeA16CCa6Ba596321AE52D"
+  },
+  {
+    "name": "Curve BBTC Pool",
+    "symbol": "crvBBTC",
+    "address": "0x410e3E86ef427e30B9235497143881f717d93c2A"
+  },
+  {
+    "name": "Curve renBTC Pool yVault",
+    "symbol": "yvCurve-renBTC",
+    "address": "0x5334e150B938dd2b6bd040D9c4a03Cff0cED3765"
+  },
+  {
+    "name": "Curve renBTC Pool",
+    "symbol": "crvRENBTC",
+    "address": "0x49849C98ae39Fff122806C06791Fa73784FB3675"
+  },
+  {
     "name": "DAI yVault",
     "symbol": "yvDAI",
     "address": "0xACd43E627e64355f1861cEC6d3a6688B31a6F952"
@@ -150,6 +240,11 @@
     "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
   },
   {
+    "name": "Ether",
+    "symbol": "ETH",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+  },
+  {
     "name": "LINK yVault",
     "symbol": "yvLINK",
     "address": "0x881b06da56BB5675c54E4Ed311c21E54C5025298"
@@ -182,11 +277,21 @@
   {
     "name": "DAI yVault",
     "symbol": "yvDAI",
-    "address": "0xBFa4D8AA6d8a379aBFe7793399D3DdaCC5bBECBB"
+    "address": "0x19D3364A399d251E894aC732651be8B0E4e85001"
   },
   {
     "name": "USDC yVault",
     "symbol": "yvUSDC",
-    "address": "0xe2F6b9773BF3A015E2aA70741Bde1498bdB9425b"
+    "address": "0x5f18C75AbDAe578b483E5F43f12a39cF75b973a9"
+  },
+  {
+    "name": "mUSD yVault",
+    "symbol": "yvmUSD",
+    "address": "0xE0db48B4F71752C4bEf16De1DBD042B82976b8C7"
+  },
+  {
+    "name": "mUSD",
+    "symbol": "mUSD",
+    "address": "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5"
   }
 ]

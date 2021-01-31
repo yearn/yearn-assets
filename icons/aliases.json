@@ -225,7 +225,7 @@
     "address": "0x29E240CFD7946BA20895a7a02eDb25C210f9f324"
   },
   {
-    "name": "Aave Interest bearing LINK",
+    "name": "Aave Interest Bearing LINK",
     "symbol": "aLINK",
     "address": "0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84"
   },
@@ -263,6 +263,16 @@
     "name": "Hegic",
     "symbol": "HEGIC",
     "address": "0x584bC13c7D411c00c01A62e8019472dE68768430"
+  },
+  {
+    "name": "SushiSwap YFI-ETH LP yVault",
+    "symbol": "yvSushi-YFI-ETH",
+    "address": "0x27Eb83254D900AB4F9b15d5652d913963FeC35e3"
+  },
+  {
+    "name": "SushiSwap YFI-ETH LP",
+    "symbol": "YFI-ETH SLP",
+    "address": "0x088ee5007C98a9677165D78dD2109AE4a3D04d0C"
   },
   {
     "name": "DAI yVault",

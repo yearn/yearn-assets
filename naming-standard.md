@@ -1,39 +1,111 @@
-# Yearn Naming Standard
+# Naming conventions
 
 ## yVaults
 
+### Dev Cheat Sheet (Examples)
+
+- **Vanilla ERC20 tokens**
+  - Name: `${token.symbol()} or override yVault`
+    - **Examples:** `USDC yVault`, `aLINK yVault`
+  - Symbol: `yv${token.symbol()} or override`
+    - **Examples:** `yvUSDC`, `yvaLINK`
+- **LP positions**
+  - **Curve**
+    - Name: `Curve + pool + Pool yVault`
+      - **Examples:** `Curve sBTC Pool yVault`, `Curve 3pool yVault`, `Curve Y Pool yVault`
+    - Symbol: `yvCurve-pool`
+      - **Examples:** `yvCurve-sBTC`, `yvCurve-3pool`, `yvCurve-Y`. We make an exception for the last one and call it `yUSD`.
+  - **Uniswap**
+    - Name: `Uniswap + v${self.version()} + TOKEN-TOKEN + LP yVault`
+      - **Examples:** `Uniswap v2 USDT-WETH LP yVault`, `Uniswap v2 WBTC-WETH LP yVault`
+    - Symbol: `yvUni-TOKEN-TOKEN`
+      - **Examples:** `yvUni-USDT-WETH`, `yvUni-WBTC-WETH`
+    - Note: Version was included for Uniswap LP tokens to help limit confusion between UNI-v2 LP tokens and upcoming UNI-v3 LP tokens.
+  - **Balancer**
+    - Name: `Balancer + TOKEN-TOKEN + Pool yVault`
+      - **Examples:** `Balancer USDT-WETH Pool yVault`, `Balancer WBTC-WETH Pool yVault`
+    - Symbol: `yvBal-TOKEN-TOKEN`
+      - **Examples:** `yvBal-USDT-WETH`, `yvBal-WBTC-WETH`
+  - **SushiSwap**
+    - Name: `SushiSwap + TOKEN-TOKEN + LP yVault`
+      - **Examples:** `SushiSwap USDT-WETH LP yVault`, `SushiSwap v2 WBTC-WETH LP yVault`
+    - Symbol: `yvSushi-TOKEN-TOKEN`
+      - **Examples:** `yvSushi-USDT-WETH`, `yvSushi-WBTC-WETH`
+- **Experimental**
+  - No hard rules for `name` or `symbol`, just be sure to end `name` with "yVault".
+    - **Examples:** `yveCRV-DAO yVault`, `yveCRV-DAO`, `St. Banteg of Yearn Patron of Plebs Lido St. Ether yVault`, `sboypoplyvstETH`
+
+### Overview and Explanation
+
 - Acceptable alternative names include Yearn Vaults, or informally referring to the product as vaults.
-- When referring to a specific yVault, the preferred name is generally `token name + yVault`; this matches the `name` field on the token contract. However, it is also acceptable to use `yvToken + Vault` or `yvToken`; the latter matches `symbol` in the contract.
-  - **Examples:** `DAI yVault`, `yvDAI Vault`, or simply `yvDAI`
+- When referring to a specific yVault, the preferred name is generally `TOKEN + yVault`; this matches the `name` field on the yVault contract. However, it is also acceptable to use `yvTOKEN + Vault`, `Yearn + TOKEN + Vault` or `yvTOKEN`; the latter matches `symbol` in the contract.
+  - **Examples:** `DAI yVault`, `yvDAI Vault`, `Yearn DAI Vault`, or simply `yvDAI`
 - For each yVault, name and symbol conventions are as follows:
   - Name: `${token.symbol()} or override yVault`
   - Symbol: `yv${token.symbol()} or override`
 - A `version` field is included in the token contract to correspond to the major yVault release version.
-- The predominant use case for name and symbol override is for LP tokens.
-  - Curve
+  - Additionally, developers may find it useful to denote `version` within the `name` field itself to help clarify the token to be deposited. Useful examples include Uniswap LPs (below), and also v1 vs v2 Aave aTokens.
+- The predominant use case for name and symbol override is for LP tokens. The use of the term `Pool` or `LP` is interchangeable, and will be selected based on colloquial use for each protocol.
+  - For instance, Curve and Balancer LP positions are typically referred to as pools since they can contain more than two tokens, while Uniswap and SushiSwap positions are typically referred to as LPs.
+  - **Curve**
     - Name: `Curve + pool + Pool yVault`
       - **Examples:** `Curve sBTC Pool yVault`, `Curve 3pool yVault`, `Curve Y Pool yVault`
       - In this case, `pool` is taken directly from Curve.fi's UI, and we can adjust for capitalization as needed. In the case of the `3pool`, the redundant "Pool" is removed.
     - Symbol: `yvCurve-pool`
       - **Examples:** `yvCurve-sBTC`, `yvCurve-3pool`, `yvCurve-Y`
-    - Note: In this methodology, `yvCurve-Y` replaces the previously used `yUSD`. In the future, `yUSD` will be used to refer to the Meta Vault token.
-  - Uniswap
-    - Name: `Uniswap + v${self.version()} + TOKEN-TOKEN + Pool yVault`
-      - **Examples:** `Uniswap v2 USDT-WETH Pool yVault`, `Uniswap v2 WBTC-WETH Pool yVault`
+    - Note: In this methodology, `yvCurve-Y` refers to the vault previously known as `yUSD`. Please see below for a more detailed discussion on proper use of `yUSD`.
+  - **Uniswap**
+    - Name: `Uniswap + v${self.version()} + TOKEN-TOKEN + LP yVault`
+      - **Examples:** `Uniswap v2 USDT-WETH LP yVault`, `Uniswap v2 WBTC-WETH LP yVault`
     - Symbol: `yvUni-TOKEN-TOKEN`
       - **Examples:** `yvUni-USDT-WETH`, `yvUni-WBTC-WETH`
     - Note: Version was included for Uniswap LP tokens to help limit confusion between UNI-v2 LP tokens and upcoming UNI-v3 LP tokens.
-  - Balancer
+  - **Balancer**
     - Name: `Balancer + TOKEN-TOKEN + Pool yVault`
       - **Examples:** `Balancer USDT-WETH Pool yVault`, `Balancer WBTC-WETH Pool yVault`
     - Symbol: `yvBal-TOKEN-TOKEN`
       - **Examples:** `yvBal-USDT-WETH`, `yvBal-WBTC-WETH`
     - Note: Since Balancer allows more than two tokens per pool, append as many `TOKEN` as needed for the pool in question.
+  - **SushiSwap**
+    - Name: `SushiSwap + TOKEN-TOKEN + LP yVault`
+      - **Examples:** `SushiSwap USDT-WETH LP yVault`, `Uniswap v2 WBTC-WETH LP yVault`
+    - Symbol: `yvSushi-TOKEN-TOKEN`
+      - **Examples:** `yvSushi-USDT-WETH`, `yvSushi-WBTC-WETH`
 
-## yCover
+## yVault Want Token
 
-- Tokens for yCover are named following a similar methodology as yVaults, with the only difference being the two letter prefix.
-  - **Examples:** `ycUSDC`, `ycUni-USDT-WETH`
+- In Yearn's UI, it may be useful to denote the desired token to deposit into a specific yVault. For basic ERC20 `want` tokens, `name` and `symbol` can be pulled directly from the token contract and utilized as-is.
+  - **Examples:** `USD Coin`, `USDC`, `ChainLink Token`, `LINK`
+- However, for LP positions, naming needs to be standardized.
+  - Curve
+    - Name: `Curve + pool + Pool`
+      - **Examples:** `Curve sBTC Pool`, `Curve 3pool`, `Curve Y Pool`, `Curve Compound Pool`
+      - In this case, `pool` is taken directly from Curve.fi's UI, and we can adjust for capitalization as needed. In the case of the `3pool`, the redundant "Pool" is removed.
+    - Symbol: `crvPOOL or override`
+      - **Examples:** `crvBUSD`, `crvCOMP`, `crvGUSD`, `crvMUSD`, `crvTBTC`, `crvSBTC`, `yCRV`, `3Crv`
+    - These names were chosen as `crvBUSD` and `crvSBTC` are already fairly widely used, and applying this formula works well for other pools. `yCRV` and `3Crv` are the allowed exceptions, as `yCRV` is the most widely used name for that pool, and `3Crv` usage is now fairly common with the recent admin fee distribution.
+  - Uniswap
+    - Name: `Uniswap + v${self.version()} + TOKEN-TOKEN + LP`
+      - **Examples:** `Uniswap v2 USDT-WETH LP`, `Uniswap v2 WBTC-WETH LP`
+    - Symbol: `TOKEN-TOKEN UNI`
+      - **Examples:** `USDT-WETH UNI`, `WBTC-WETH UNI`
+  - Balancer
+    - Name: `Balancer + TOKEN-TOKEN + Pool`
+      - **Examples:** `Balancer USDT-WETH Pool`, `Balancer WBTC-WETH Pool`
+    - Symbol: `TOKEN-TOKEN BPT`
+      - **Examples:** `USDT-WETH BPT`, `WBTC-WETH BPT`
+    - Note: Since Balancer allows more than two tokens per pool, append as many `TOKEN` as needed for the pool in question.
+  - SushiSwap
+    - Name: `SushiSwap + TOKEN-TOKEN + LP`
+      - **Examples:** `SushiSwap USDT-WETH LP`, `Uniswap v2 WBTC-WETH LP`
+    - Symbol: `TOKEN-TOKEN SLP`
+      - **Examples:** `USDT-WETH SLP`, `WBTC-WETH SLP`
+
+## yUSD
+
+- While the term `yUSD` was used to refer to the Curve Y Pool yVault in the past, under our updated naming convention this vault token is now `yvCurve-Y`. However, usage of `yUSD` is still permissable when referring to the asset itself.
+  - **Example:** Yearn pays monthly grants in `yUSD`.
+- In the future, if Yearn creates a new `yUSD` that is a collection of several yVault tokens (as has been previously discussed), then the current `yUSD` will simply be referred to as `yvCurve-Y` and only the new token will be `yUSD`.
 
 ## yEarn
 
@@ -51,22 +123,5 @@
 
 ## Future Products
 
-- Future products can follow a simple naming convention: `y + product`, where the product and any potential token names follow similar guidelines as above with yVaults. These can then be further modified as needed based on the product(s).
+- Future products can follow a simple naming convention: `y + product`, where the product and any potential token names follow similar guidelines as above with yVaults. These can then be further modified as needed based on the product\(s\).
   - **Examples:** `ySwap`, `yBorrow`, `yTrade`
-
-## Current yVaults and v2 Names
-
-| Current Name                          | Current Symbol          | v2 Name                | v2 Symbol     | Current Vault Token Contract               |
-| ------------------------------------- | ----------------------- | ---------------------- | ------------- | ------------------------------------------ |
-| yearn Wrapped Ether                   | yWETH                   | WETH yVault            | yvWETH        | 0xe1237aa7f535b0cc33fd973d66cbf830354d16c7 |
-| yearn yearn.finance                   | yYFI                    | YFI yVault             | yvYFI         | 0xba2e7fed597fd0e3e70f5130bcdbbfe06bb94fe1 |
-| yearn Curve.fi DAI/USDC/USDT          | y3Crv                   | Curve 3pool yVault     | yvCurve-3pool | 0x9cA85572E6A3EbF24dEDd195623F188735A5179f |
-| yearn Curve.fi yDAI/yUSDC/yUSDT/yTUSD | yyDAI+yUSDC+yUSDT+yTUSD | Curve Y Pool yVault    | yvCurve-Y     | 0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c |
-| yearn Curve.fi yDAI/yUSDC/yUSDT/yBUSD | yyDAI+yUSDC+yUSDT+yBUSD | Curve BUSD Pool yVault | yvCurve-BUSD  | 0x2994529C0652D127b7842094103715ec5299bBed |
-| yearn Curve.fi renBTC/wBTC/sBTC       | ycrvRenWSBTC            | Curve sBTC Pool yVault | yvCurve-sBTC  | 0x7Ff566E1d69DEfF32a7b244aE7276b9f90e9D0f6 |
-| yearn Dai Stablecoin                  | yDAI                    | DAI yVault             | yvDAI         | 0xACd43E627e64355f1861cEC6d3a6688B31a6F952 |
-| yearn TrueUSD                         | yTUSD                   | TUSD yVault            | yvTUSD        | 0x37d19d1c4E1fa9DC47bD1eA12f742a0887eDa74a |
-| yearn USD//C                          | yUSDC                   | USDC yVault            | yvUSDC        | 0x597aD1e0c13Bfe8025993D9e79C69E1c0233522e |
-| yearn Tether USD                      | yUSDT                   | USDT yVault            | yvUSDT        | 0x2f08119C6f07c006695E079AAFc638b8789FAf18 |
-| yearn Gemini Dollar                   | yGUSD                   | GUSD yVault            | yvGUSD        | 0xec0d8D3ED5477106c6D4ea27D90a60e594693C90 |
-| yearn Aave Interest bearing LINK      | yaLINK                  | aLINK yVault           | yvaLINK       | 0x29E240CFD7946BA20895a7a02eDb25C210f9f324 |

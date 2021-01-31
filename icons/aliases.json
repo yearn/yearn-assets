@@ -77,7 +77,7 @@
   {
     "name": "Curve stETH Pool",
     "symbol": "crvSTETH",
-    "address": "0x06325440d014e39736583c165c2963ba99faf14e"
+    "address": "0x06325440D014e39736583c165C2963BA99fAf14E"
   },
   {
     "name": "Curve EURS Pool yVault",
@@ -87,7 +87,7 @@
   {
     "name": "Curve EURS Pool",
     "symbol": "crvEURS",
-    "address": "0x194ebd173f6cdace046c53eacce9b953f28411d1"
+    "address": "0x194eBd173F6cDacE046C53eACcE9B953F28411d1"
   },
   {
     "name": "Curve USDN Pool yVault",
@@ -165,9 +165,9 @@
     "address": "0xACd43E627e64355f1861cEC6d3a6688B31a6F952"
   },
   {
-    "name": "DAI",
+    "name": "DAI Stablecoin",
     "symbol": "DAI",
-    "address": "0x6b175474e89094c44da98b954eedeac495271d0f"
+    "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
   },
   {
     "name": "TUSD yVault",
@@ -175,7 +175,7 @@
     "address": "0x37d19d1c4E1fa9DC47bD1eA12f742a0887eDa74a"
   },
   {
-    "name": "TUSD",
+    "name": "TrueUSD",
     "symbol": "TUSD",
     "address": "0x0000000000085d4780B73119b644AE5ecd22b376"
   },
@@ -185,9 +185,9 @@
     "address": "0x597aD1e0c13Bfe8025993D9e79C69E1c0233522e"
   },
   {
-    "name": "USDC",
+    "name": "USD Coin",
     "symbol": "USDC",
-    "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   },
   {
     "name": "USDT yVault",
@@ -195,9 +195,9 @@
     "address": "0x2f08119C6f07c006695E079AAFc638b8789FAf18"
   },
   {
-    "name": "USDT",
+    "name": "Tether USD",
     "symbol": "USDT",
-    "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+    "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
   },
   {
     "name": "GUSD yVault",
@@ -205,9 +205,9 @@
     "address": "0xec0d8D3ED5477106c6D4ea27D90a60e594693C90"
   },
   {
-    "name": "GUSD",
+    "name": "Gemini Dollar",
     "symbol": "GUSD",
-    "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd"
+    "address": "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd"
   },
   {
     "name": "YFI yVault",
@@ -215,7 +215,7 @@
     "address": "0xBA2E7Fed597fd0E3e70f5130BcDbbFE06bB94fe1"
   },
   {
-    "name": "YFI",
+    "name": "yearn.finance",
     "symbol": "YFI",
     "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e"
   },
@@ -225,7 +225,7 @@
     "address": "0x29E240CFD7946BA20895a7a02eDb25C210f9f324"
   },
   {
-    "name": "aLINK",
+    "name": "Aave Interest bearing LINK",
     "symbol": "aLINK",
     "address": "0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84"
   },
@@ -235,9 +235,9 @@
     "address": "0xe1237aA7f535b0CC33Fd973D66cBf830354D16c7"
   },
   {
-    "name": "WETH",
+    "name": "Wrapped Ether",
     "symbol": "WETH",
-    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
   },
   {
     "name": "Ether",
@@ -250,29 +250,19 @@
     "address": "0x881b06da56BB5675c54E4Ed311c21E54C5025298"
   },
   {
-    "name": "LINK",
+    "name": "ChainLink Token",
     "symbol": "LINK",
-    "address": "0x514910771af9ca656af840dff83e8264ecf986ca"
+    "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA"
   },
   {
     "name": "HEGIC yVault",
     "symbol": "yvHEGIC",
-    "address": "0x19db27D2E9E4B780CF9A296D575aBbddEe1578DA"
+    "address": "0xe11ba472F74869176652C35D30dB89854b5ae84D"
   },
   {
-    "name": "HEGIC",
+    "name": "Hegic",
     "symbol": "HEGIC",
     "address": "0x584bC13c7D411c00c01A62e8019472dE68768430"
-  },
-  {
-    "name": "SushiSwap YFI-ETH Pool yVault",
-    "symbol": "yvSushi-YFI-ETH",
-    "address": "0x27Eb83254D900AB4F9b15d5652d913963FeC35e3"
-  },
-  {
-    "name": "SushiSwap YFI-ETH Pool",
-    "symbol": "Sushi-YFI-ETH",
-    "address": "0x088ee5007c98a9677165d78dd2109ae4a3d04d0c"
   },
   {
     "name": "DAI yVault",
@@ -290,7 +280,7 @@
     "address": "0xE0db48B4F71752C4bEf16De1DBD042B82976b8C7"
   },
   {
-    "name": "mUSD",
+    "name": "mStable USD",
     "symbol": "mUSD",
     "address": "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5"
   }

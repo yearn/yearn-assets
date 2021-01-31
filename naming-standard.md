@@ -6,8 +6,9 @@
 
 - **Vanilla ERC20 tokens**
   - Name: `${token.symbol()} or override yVault`
+    - **Examples:** `USDC yVault`, `aLINK yVault`
   - Symbol: `yv${token.symbol()} or override`
-    - **Examples:** `USDC yVault`, `yvUSDC`, `aLINK yVault`, `yvaLINK`
+    - **Examples:** `yvUSDC`, `yvaLINK`
 - **LP positions**
   - **Curve**
     - Name: `Curve + pool + Pool yVault`
@@ -27,7 +28,7 @@
       - **Examples:** `yvBal-USDT-WETH`, `yvBal-WBTC-WETH`
   - **SushiSwap**
     - Name: `SushiSwap + TOKEN-TOKEN + LP yVault`
-      - **Examples:** `SushiSwap USDT-WETH LP yVault`, `Uniswap v2 WBTC-WETH LP yVault`
+      - **Examples:** `SushiSwap USDT-WETH LP yVault`, `SushiSwap v2 WBTC-WETH LP yVault`
     - Symbol: `yvSushi-TOKEN-TOKEN`
       - **Examples:** `yvSushi-USDT-WETH`, `yvSushi-WBTC-WETH`
 - **Experimental**

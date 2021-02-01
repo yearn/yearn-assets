@@ -6,9 +6,16 @@ on:
 env:
   ETHPLORER_API_KEY: ${{ secrets.ETHPLORER_API_KEY }}
 jobs:
-  bash:
+  tests:
     runs-on: ubuntu-latest
     steps:
+      - name: Check ETHPLORER_API_KEY
+        run: |
+          if [ -z "$ETHPLORER_API_KEY" ] ; then
+            echo "Missing ENV variable ETHPLORER_API_KEY"
+            exit 1
+          fi
+
       - name: Check out github repository
         uses: actions/checkout@v2
         with:

@@ -293,5 +293,55 @@
     "name": "mStable USD",
     "symbol": "mUSD",
     "address": "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5"
+  },
+  {
+    "name": "Curve DUSD Pool yVault",
+    "symbol": "yvCurve-DUSD",
+    "address": "0x8e6741b456a074F0Bc45B8b82A755d4aF7E965dF"
+  },
+  {
+    "name": "Curve DUSD Pool",
+    "symbol": "crvDUSD",
+    "address": "0x3a664Ab939FD8482048609f652f9a0B0677337B9"
+  },
+  {
+    "name": "Curve sUSD Pool yVault",
+    "symbol": "yvCurve-sUSD",
+    "address": "0x5533ed0a3b83F70c3c4a1f69Ef5546D3D4713E44"
+  },
+  {
+    "name": "Curve sUSD Pool",
+    "symbol": "crvSUSD",
+    "address": "0xC25a3A3b969415c80451098fa907EC722572917F"
+  },
+  {
+    "name": "Curve HBTC Pool yVault",
+    "symbol": "yvCurve-HBTC",
+    "address": "0x46AFc2dfBd1ea0c0760CAD8262A5838e803A37e5"
+  },
+  {
+    "name": "Curve HBTC Pool",
+    "symbol": "crvHBTC",
+    "address": "0xb19059ebb43466C323583928285a49f558E572Fd"
+  },
+  {
+    "name": "Curve HUSD Pool yVault",
+    "symbol": "yvCurve-HUSD",
+    "address": "0x39546945695DCb1c037C836925B355262f551f55"
+  },
+  {
+    "name": "Curve HUSD Pool",
+    "symbol": "crvHUSD",
+    "address": "0x5B5CFE992AdAC0C9D48E05854B2d91C73a003858"
+  },
+  {
+    "name": "WBTC yVault",
+    "symbol": "yvWBTC",
+    "address": "0xcB550A6D4C8e3517A939BC79d0c7093eb7cF56B5"
+  },
+  {
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
   }
 ]

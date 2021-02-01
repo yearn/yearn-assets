@@ -1,0 +1,30 @@
+name: Check Files (complete)
+on:
+  push:
+    branches:
+      - master
+env:
+  ETHPLORER_API_KEY: ${{ secrets.ETHPLORER_API_KEY }}
+jobs:
+  bash:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out github repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+
+      - name: Install test dependencies
+        run: pip install -r tests/requirements.txt
+
+      - name: Check address checksum
+        run: python tests/check_checksum.py
+
+      - name: Check tokens
+        run: python tests/check_token.py
+

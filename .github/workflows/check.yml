@@ -1,4 +1,4 @@
-name: Check Files (complete)
+name: Check Files
 on:
   push:
     branches:

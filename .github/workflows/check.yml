@@ -6,8 +6,6 @@ on:
   pull_request:
     branches:
       - master
-env:
-  ETHPLORER_API_KEY: ${{ secrets.ETHPLORER_API_KEY }}
 jobs:
   tests:
     runs-on: ubuntu-latest
@@ -48,4 +46,6 @@ jobs:
             exit 1
           fi
           python tests/check_token.py
+        env:
+          ETHPLORER_API_KEY: ${{ secrets.ETHPLORER_API_KEY }}
 

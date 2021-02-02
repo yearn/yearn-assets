@@ -1,12 +1,18 @@
-name: Check Files
+name: Check Files (complete)
 on:
+  push:
+    branches:
+      - master
   pull_request:
     branches:
       - master
+env:
+  ETHPLORER_API_KEY: ${{ secrets.ETHPLORER_API_KEY }}
 jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
+
       - name: Check out github repository
         uses: actions/checkout@v2
         with:
@@ -17,11 +23,29 @@ jobs:
         with:
           python-version: "3.x"
 
+      - uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            pip-
+
       - name: Install test dependencies
         run: pip install -r tests/requirements.txt
 
       - name: Check address checksum
         run: python tests/check_checksum.py
 
-      - name: Check tokens
+      - name: Check tokens (pull request)
         run: python tests/check_token.py
+        if: github.event_name == 'pull_request'
+
+      - name: Check tokens with ethplorer (master)
+        if: github.event_name == 'push'
+        run: |
+          if [ -z "$ETHPLORER_API_KEY" ] ; then
+            echo "Missing ENV variable ETHPLORER_API_KEY"
+            exit 1
+          fi
+          python tests/check_token.py
+

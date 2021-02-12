@@ -335,6 +335,16 @@
     "address": "0x5B5CFE992AdAC0C9D48E05854B2d91C73a003858"
   },
   {
+    "name": "Curve Aave Pool yVault",
+    "symbol": "yvCurve-AAVE",
+    "address": "0x03403154afc09Ce8e44C3B185C82C6aD5f86b9ab"
+  },
+  {
+    "name": "Curve Aave Pool",
+    "symbol": "crvAAVE",
+    "address": "0xFd2a8fA60Abd58Efe3EeE34dd494cD491dC14900"
+  },
+  {
     "name": "WBTC yVault",
     "symbol": "yvWBTC",
     "address": "0xcB550A6D4C8e3517A939BC79d0c7093eb7cF56B5"

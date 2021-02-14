@@ -336,13 +336,23 @@
   },
   {
     "name": "Curve Aave Pool yVault",
-    "symbol": "yvCurve-AAVE",
+    "symbol": "yvCurve-Aave",
     "address": "0x03403154afc09Ce8e44C3B185C82C6aD5f86b9ab"
   },
   {
     "name": "Curve Aave Pool",
     "symbol": "crvAAVE",
     "address": "0xFd2a8fA60Abd58Efe3EeE34dd494cD491dC14900"
+  },
+  {
+    "name": "Curve ankrETH Pool yVault",
+    "symbol": "yvCurve-ankrETH",
+    "address": "0xE625F5923303f1CE7A43ACFEFd11fd12f30DbcA4"
+  },
+  {
+    "name": "Curve ankrETH Pool",
+    "symbol": "crvANKR",
+    "address": "0xaA17A236F2bAdc98DDc0Cf999AbB47D47Fc0A6Cf"
   },
   {
     "name": "WBTC yVault",

@@ -355,6 +355,26 @@
     "address": "0xaA17A236F2bAdc98DDc0Cf999AbB47D47Fc0A6Cf"
   },
   {
+    "name": "Curve sETH Pool yVault",
+    "symbol": "yvCurve-sETH",
+    "address": "0x986b4AFF588a109c09B50A03f42E4110E29D353F"
+  },
+  {
+    "name": "Curve sETH Pool",
+    "symbol": "crvSETH",
+    "address": "0xA3D87FffcE63B53E0d54fAa1cc983B7eB0b74A9c"
+  },
+  {
+    "name": "Curve Iron Bank Pool",
+    "symbol": "crvIB",
+    "address": "0x5282a4eF67D9C33135340fB3289cc1711c13638C"
+  },
+  {
+    "name": "Curve USDP Pool",
+    "symbol": "crvUSDP",
+    "address": "0x86A91b50af95fF1D9D53CA1E4963ef06D8b31369"
+  },
+  {
     "name": "WBTC yVault",
     "symbol": "yvWBTC",
     "address": "0xcB550A6D4C8e3517A939BC79d0c7093eb7cF56B5"

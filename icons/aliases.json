@@ -365,6 +365,16 @@
     "address": "0xA3D87FffcE63B53E0d54fAa1cc983B7eB0b74A9c"
   },
   {
+    "name": "Curve sAave Pool yVault",
+    "symbol": "yvCurve-sAave",
+    "address": "0xBacB69571323575C6a5A3b4F9EEde1DC7D31FBc1"
+  },
+  {
+    "name": "Curve sAave Pool",
+    "symbol": "crvSAAVE",
+    "address": "0x02d341CcB60fAaf662bC0554d13778015d1b285C"
+  },
+  {
     "name": "Curve Iron Bank Pool",
     "symbol": "crvIB",
     "address": "0x5282a4eF67D9C33135340fB3289cc1711c13638C"

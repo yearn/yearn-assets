@@ -385,6 +385,11 @@
     "address": "0x86A91b50af95fF1D9D53CA1E4963ef06D8b31369"
   },
   {
+    "name": "Curve USDP Pool yVault",
+    "symbol": "yvCurve-USDP",
+    "address": "0x1B5eb1173D2Bf770e50F10410C9a96F7a8eB6e75"
+  },
+  {
     "name": "WBTC yVault",
     "symbol": "yvWBTC",
     "address": "0xcB550A6D4C8e3517A939BC79d0c7093eb7cF56B5"

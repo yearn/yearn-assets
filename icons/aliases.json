@@ -398,5 +398,15 @@
     "name": "Wrapped BTC",
     "symbol": "WBTC",
     "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+  },
+  {
+    "name": "Curve LINK Pool yVault",
+    "symbol": "yvCurve-LINK",
+    "address": "0x96Ea6AF74Af09522fCB4c28C269C26F59a31ced6"
+  },
+  {
+    "name": "Curve LINK Pool",
+    "symbol": "crvLINK",
+    "address": "0xcee60cFa923170e4f8204AE08B4fA6A3F5656F3a"
   }
 ]

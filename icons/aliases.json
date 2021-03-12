@@ -408,5 +408,15 @@
     "name": "Curve LINK Pool",
     "symbol": "crvLINK",
     "address": "0xcee60cFa923170e4f8204AE08B4fA6A3F5656F3a"
+  },
+  {
+    "name": "1INCH yVault",
+    "symbol": "yv1INCH",
+    "address": "0xB8C3B7A2A618C552C23B1E4701109a9E756Bab67"
+  },
+  {
+    "name": "1INCH Token",
+    "symbol": "1INCH",
+    "address": "0x111111111117dC0aa78b770fA6A738034120C302"
   }
 ]

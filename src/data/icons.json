@@ -1,0 +1,18 @@
+  
+{
+  "commonProperties":
+  {
+      "hidden": "true",
+      "role": "img",
+      "color": "currentColor",
+      "desc": "",
+      "width": "var(--auro-size-lg)",
+      "height": "var(--auro-size-lg)",
+      "xmlns": "http://www.w3.org/2000/svg",
+      "xmlns_xlink": "http://www.w3.org/1999/xlink",
+      "viewBox": "0 0 24 24",
+      "path": "/icons",
+      "style": "ico_squareLarge"
+  },
+    "icons": [],
+}

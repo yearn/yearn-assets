@@ -1,0 +1,14 @@
+# standard ignore
+.gitignore
+.jsonlintschema
+.svglintrc.js
+.github/
+scripts/
+tests/
+validate/
+
+# ignore src
+src/**/*
+
+# overrides
+!src/icons

@@ -1,0 +1,37 @@
+{
+  "title": "Icons",
+  "type": "object",
+  "properties": {
+    "icons": {
+        "description": "The list of icons",
+        "type": "array",
+        "items": {
+          "description": "A single icon",
+          "type": "object",
+          "properties": {
+            "title": {
+              "description": "The icons name",
+              "type": "string",
+              "required": false
+            },
+            "name": {
+              "description": "The icons file name",
+              "type": "string",
+              "required": true
+            },
+            "desc": {
+              "description": "Icon description",
+              "type": "string",
+              "required": false
+            },
+            "style": {
+              "description": "The icon's default CSS class",
+              "type": "string",
+              "required": false
+            }
+          },
+        "required": true
+      }
+    }
+  }
+}

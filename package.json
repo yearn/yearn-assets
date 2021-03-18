@@ -8,18 +8,24 @@
     "dist": "svg-dist"
   },
   "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "babel-plugin-inline-react-svg": "^2.0.1",
     "jsonlint2": "^1.7.1",
     "rollup": "^2.6.1",
     "rollup-plugin-terser": "^7.0.2",
+    "svg-path": "^0.2.1",
+    "svg-path-bbox": "^0.2.0",
     "svg-to-ts": "^6.0.0",
     "svglint": "^1.0.7",
-    "svgo": "^2.2.2"
+    "svgo": "^2.2.2",
+    "svgpath": "^2.3.1"
   },
   "scripts": {
     "build": "npx svgo --recursive --folder icons/tokens/ --output svg-dist/",
     "svg": "npx svgo -f icons/tokens dist/svg --disable=removeViewBox,removeTitle",
-   "lint": "npx svglint svg-dist/*.svg dist/svg/*.svg --ci",
-   "lint:raw": "npx svglint icons/tokens/**/*.svg --ci"
+    "lint": "npx svglint svg-dist/*.svg dist/svg/*.svg --ci",
+    "lint:raw": "npx svglint icons/tokens/**/*.svg --ci"
   },
   "repository": {
     "type": "git",

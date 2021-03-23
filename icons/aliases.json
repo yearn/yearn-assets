@@ -381,7 +381,7 @@
   },
   {
     "name": "Curve Iron Bank Pool yVault",
-    "symbol": "yvCurve-IB",
+    "symbol": "yvCurve-IronBank",
     "address": "0x27b7b1ad7288079A66d12350c828D3C00A6F07d7"
   },
   {

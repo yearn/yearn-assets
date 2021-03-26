@@ -10,7 +10,6 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
-
       - name: Check out github repository
         uses: actions/checkout@v2
         with:
@@ -19,7 +18,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
-          python-version: "3.x"
+          python-version: '3.x'
 
       - uses: actions/cache@v2
         with:
@@ -48,4 +47,3 @@ jobs:
           python tests/check_token.py
         env:
           ETHPLORER_API_KEY: ${{ secrets.ETHPLORER_API_KEY }}
-

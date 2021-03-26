@@ -1,0 +1,56 @@
+{
+  "name": "@yfi/assets",
+  "version": "0.0.0",
+  "description": "svg assets optimized",
+  "files": [
+    "svg-dist/**/*.svg",
+    "src/**/*.svg"
+  ],
+  "directories": {
+    "test": "tests",
+    "dist": "svg-dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "jsonlint2": "^1.7.1",
+    "prettier": "^2.2.1",
+    "svg-path": "^0.2.1",
+    "svg-path-bbox": "^0.2.0",
+    "svg-to-ts": "^6.0.0",
+    "svglint": "^1.0.7",
+    "svgo": "^2.2.2",
+    "svgo-loader": "^3.0.0",
+    "svgpath": "^2.3.1",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "scripts": {
+    "build": "npx svgo --recursive --folder icons/tokens/ --output svg-dist/",
+    "svg": "npx svgo -f icons/tokens dist/svg --disable=removeViewBox,removeTitle",
+    "lint": "npx svglint svg-dist/*.svg dist/svg/*.svg --ci",
+    "lint:raw": "npx svglint icons/tokens/**/*.svg --ci",
+    "fmt": "npx prettier --config .prettierrc.json --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yearn/yearn-assets.git"
+  },
+  "keywords": [
+    "svg",
+    "assets",
+    "react",
+    "components",
+    "images",
+    "cryptocurrency",
+    "ethereum",
+    "defi"
+  ],
+  "author": "Yearn Finance",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yearn/yearn-assets/issues"
+  },
+  "homepage": "https://github.com/yearn/yearn-assets#readme"
+}

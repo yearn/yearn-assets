@@ -1,51 +1,52 @@
+const { extendDefaultPlugins } = require('svgo');
 module.exports = {
   js2svg: {
     pretty: true,
-    indent: 2
+    indent: 2,
   },
   multipass: true,
-  plugins: [
+  plugins: extendDefaultPlugins([
     {
       name: 'addAttributesToSVGElement',
       params: {
         attributes: [
           {
-            focusable: false
+            focusable: false,
           },
           'height',
-          'width'
-        ]
-      }
+          'width',
+        ],
+      },
     },
     {
       name: 'convertColors',
       params: {
-        currentColor: 'red'
-      }
+        currentColor: 'red',
+      },
     },
     {
       name: 'inlineStyles',
       params: {
-        onlyMatchedOnce: false
-      }
+        onlyMatchedOnce: false,
+      },
     },
     {
       name: 'removeAttrs',
       params: {
-        attrs: '(baseProfile|class|clip-rule|id|stroke-miterlimit|version)'
-      }
+        attrs: '(baseProfile|class|clip-rule|id|stroke-miterlimit|version)',
+      },
     },
     { name: 'removeTitle' },
     {
       name: 'removeViewBox',
-      active: false
+      active: false,
     },
     {
       name: 'removeUnknownsAndDefaults',
       params: {
-        unknownAttrs: false
-      }
+        unknownAttrs: false,
+      },
     },
-    { name: 'sortAttrs' }
-  ]
+    { name: 'sortAttrs' },
+  ]),
 };

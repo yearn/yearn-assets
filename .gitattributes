@@ -1,0 +1,9 @@
+# diff svg for metadata
+*.png diff=exif
+*.jpg diff=exif
+*.svg diff=exif
+
+/.github            export-ignore
+/.editorconfig      export-ignore
+/.gitattributes     export-ignore
+/.gitignore         export-ignore

@@ -5,7 +5,7 @@ import pkg from './package.json';
 
 // Configs
 var configs = {
-	name: 'BuildToolsCookbook',
+	name: 'YearnFinanceAssets',
 	files: ['main.js', 'detects.js', 'another-file.js'],
 	formats: ['iife', 'es', 'amd', 'cjs'],
 	default: 'iife',

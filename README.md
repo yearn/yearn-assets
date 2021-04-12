@@ -1,15 +1,23 @@
-# Yearn assets
+# Yearn Finance Assets
 
-Repository structure:
+[![svg-processor](https://github.com/yearn/yearn-assets/actions/workflows/svg-processor.yml/badge.svg)](https://github.com/yearn/yearn-assets/actions/workflows/svg-processor.yml)
 
-```bash
-.
-├── README.md
-├── check.sh
-└── icons
-    └── tokens
+> Yearn Finance Assets
 
-```
+## Overview
+
+- svgo optimized assets
+- npm package
+
+### Usage
+
+// TODO
+
+## Acknowledgements
 
 Token logos by [Alina Loseva](https://twitter.com/alina_loseva) and
 [WrongNebula](https://twitter.com/WrongNebula).
+
+## License
+
+SPDX-License-Identifier: MIT

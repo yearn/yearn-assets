@@ -430,6 +430,11 @@
     "address": "0x625b7DF2fa8aBe21B0A976736CDa4775523aeD1E"
   },
   {
+    "name": "Curve sBTC Pool yVault",
+    "symbol": "yvCurve-sBTC",
+    "address": "0x8414Db07a7F743dEbaFb402070AB01a4E0d2E45e"
+  },
+  {
     "name": "yveCRV Vault",
     "symbol": "yveCRV",
     "address": "0xc5bDdf9843308380375a611c18B50Fb9341f502A"

@@ -438,5 +438,15 @@
     "name": "yveCRV Vault",
     "symbol": "yveCRV",
     "address": "0xc5bDdf9843308380375a611c18B50Fb9341f502A"
+  },
+  {
+    "name": "Curve LUSD Pool",
+    "symbol": "crvLUSD",
+    "address": "0xEd279fDD11cA84bEef15AF5D39BB4d4bEE23F0cA"
+  },
+  {
+    "name": "Curve FRAX Pool",
+    "symbol": "crvFRAX",
+    "address": "0xd632f22692FaC7611d2AA1C0D552930D43CAEd3B"
   }
 ]

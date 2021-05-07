@@ -30,13 +30,13 @@
     "address": "0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8"
   },
   {
-    "name": "Curve BUSD Pool yVault",
-    "symbol": "yvCurve-BUSD",
+    "name": "Curve yBUSD Pool yVault",
+    "symbol": "yvCurve-yBUSD",
     "address": "0x2994529C0652D127b7842094103715ec5299bBed"
   },
   {
-    "name": "Curve BUSD Pool",
-    "symbol": "crvBUSD",
+    "name": "Curve yBUSD Pool",
+    "symbol": "crvYBUSD",
     "address": "0x3B3Ac5386837Dc563660FB6a0937DFAa5924333B"
   },
   {

@@ -351,7 +351,7 @@
   },
   {
     "name": "Curve ankrETH Pool",
-    "symbol": "crvANKR",
+    "symbol": "crvAETH",
     "address": "0xaA17A236F2bAdc98DDc0Cf999AbB47D47Fc0A6Cf"
   },
   {
@@ -448,5 +448,15 @@
     "name": "Curve FRAX Pool",
     "symbol": "crvFRAX",
     "address": "0xd632f22692FaC7611d2AA1C0D552930D43CAEd3B"
+  },
+  {
+    "name": "Curve TUSD Pool",
+    "symbol": "crvTUSD",
+    "address": "0xEcd5e75AFb02eFa118AF914515D6521aaBd189F1"
+  },
+  {
+    "name": "Curve BUSD Pool",
+    "symbol": "crvBUSD",
+    "address": "0x4807862AA8b2bF68830e4C8dc86D0e9A998e085a"
   }
 ]

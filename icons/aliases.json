@@ -475,8 +475,14 @@
     "address": "0x5Eff6d166D66BacBC1BF52E2C54dD391AE6b1f48"
   },
   {
-    "name": "Curve triCrypto Pool yVault",
-    "symbol": "crvTricrypto",
+    "name": "Curve triCryptopool yVault",
+    "symbol": "yvCurve-tricryptopool",
+    "address": "0x3D980E50508CFd41a13837A60149927a11c03731"
+  },
+  {
+    "name": "Curve triCryptopool",
+    "symbol": "tricryptopool",
     "address": "0xcA3d75aC011BF5aD07a98d02f18225F9bD9A6BDF"
   }
+
 ]

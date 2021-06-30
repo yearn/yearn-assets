@@ -346,12 +346,12 @@
   },
   {
     "name": "Curve ankrETH Pool yVault",
-    "symbol": "yvCurve-ankrETH",
+    "symbol": "yvCurve-ankrETHc",
     "address": "0xE625F5923303f1CE7A43ACFEFd11fd12f30DbcA4"
   },
   {
     "name": "Curve ankrETH Pool",
-    "symbol": "crvAETH",
+    "symbol": "crvAETHc",
     "address": "0xaA17A236F2bAdc98DDc0Cf999AbB47D47Fc0A6Cf"
   },
   {

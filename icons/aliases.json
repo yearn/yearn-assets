@@ -50,6 +50,46 @@
     "address": "0x075b1bb99792c9E1041bA13afEf80C91a1e70fB3"
   },
   {
+    "name": "Curve USDT Pool yVault",
+    "symbol": "yvCurve-USDT",
+    "address": "0x28a5b95C101df3Ded0C0d9074DB80C438774B6a9"
+  },
+  {
+    "name": "Curve USDT Pool",
+    "symbol": "crvUSDT",
+    "address": "0x9fC689CCaDa600B6DF723D9E47D84d76664a1F23"
+  },
+  {
+    "name": "Curve USDK Pool yVault",
+    "symbol": "yvCurve-USDK",
+    "address": "0x3D27705c64213A5DcD9D26880c1BcFa72d5b6B0E"
+  },
+  {
+    "name": "Curve USDK Pool",
+    "symbol": "crvUSDK",
+    "address": "0x97E2768e8E73511cA874545DC5Ff8067eB19B787"
+  },
+  {
+    "name": "Curve RSV Pool yVault",
+    "symbol": "yvCurve-RSV",
+    "address": "0xC116dF49c02c5fD147DE25Baa105322ebF26Bd97"
+  },
+  {
+    "name": "Curve RSV Pool",
+    "symbol": "crvRSV",
+    "address": "0xC2Ee6b0334C261ED60C72f6054450b61B8f18E35"
+  },
+  {
+    "name": "Curve PAX Pool yVault",
+    "symbol": "yvCurve-PAX",
+    "address": "0x80bbeE2fa460dA291e796B9045e93d19eF948C6A"
+  },
+  {
+    "name": "Curve PAX Pool",
+    "symbol": "crvPAX",
+    "address": "0xD905e2eaeBe188fc92179b6350807D8bd91Db0D8"
+  },
+  {
     "name": "Curve GUSD Pool yVault",
     "symbol": "yvCurve-GUSD",
     "address": "0xcC7E70A958917cCe67B4B87a8C30E6297451aE98"
@@ -479,5 +519,4 @@
     "symbol": "crvTricrypto",
     "address": "0xcA3d75aC011BF5aD07a98d02f18225F9bD9A6BDF"
   }
-
 ]

@@ -521,7 +521,47 @@
   },
   {
     "name": "Curve 3Crypto Pool",
-    "symbol": "crv3Crypto",
+    "symbol": "3Crypto",
     "address": "0xc4AD29ba4B3c580e6D59105FFf484999997675Ff"
+  },
+  {
+    "name": "Uniswap",
+    "symbol": "UNI",
+    "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+  },
+  {
+    "name": "Synth sUSD",
+    "symbol": "sUSD",
+    "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51"
+  },
+  {
+    "name": "Synthetix Network Token",
+    "symbol": "SNX",
+    "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"
+  },
+  {
+    "name": "Rai Reflexer Index",
+    "symbol": "RAI",
+    "address": "0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919"
+  },
+  {
+    "name": "Rai Reflexer Index",
+    "symbol": "RAI",
+    "address": "0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919"
+  },
+  {
+    "name": "SushiToken",
+    "symbol": "SUSHI",
+    "address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
+  },
+  {
+    "name": "Compound",
+    "symbol": "COMP",
+    "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888"
+  },
+  {
+    "name": "Aave Token",
+    "symbol": "AAVE",
+    "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
   }
 ]

@@ -545,11 +545,6 @@
     "address": "0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919"
   },
   {
-    "name": "Rai Reflexer Index",
-    "symbol": "RAI",
-    "address": "0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919"
-  },
-  {
     "name": "SushiToken",
     "symbol": "SUSHI",
     "address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
@@ -563,5 +558,15 @@
     "name": "Aave Token",
     "symbol": "AAVE",
     "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+  },
+  {
+    "name": "Curve EURt Pool",
+    "symbol": "crvEURt",
+    "address": "0xFD5dB7463a3aB53fD211b4af195c5BCCC1A03890"
+  },
+  {
+    "name": "Curve MIM Pool",
+    "symbol": "crvMIM",
+    "address": "0x5a6A4D54456819380173272A5E8E9B9904BdF41B"
   }
 ]

@@ -568,5 +568,10 @@
     "name": "Curve MIM Pool",
     "symbol": "crvMIM",
     "address": "0x5a6A4D54456819380173272A5E8E9B9904BdF41B"
+  },
+  {
+    "name": "Yearn Compounding veCRV yVault",
+    "symbol": "yvBOOST",
+    "address": "0x9d409a0A012CFbA9B15F6D4B36Ac57A46966Ab9a"
   }
 ]

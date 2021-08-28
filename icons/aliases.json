@@ -560,8 +560,8 @@
     "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
   },
   {
-    "name": "Curve EURt Pool",
-    "symbol": "crvEURt",
+    "name": "Curve EURT Pool",
+    "symbol": "crvEURT",
     "address": "0xFD5dB7463a3aB53fD211b4af195c5BCCC1A03890"
   },
   {

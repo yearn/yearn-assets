@@ -86,7 +86,7 @@
   },
   {
     "name": "Curve PAX Pool",
-    "symbol": "Curve PAX",
+    "symbol": "crvPAX",
     "address": "0xD905e2eaeBe188fc92179b6350807D8bd91Db0D8"
   },
   {
@@ -196,7 +196,7 @@
   },
   {
     "name": "Curve renBTC Pool",
-    "symbol": "Curve renBTC",
+    "symbol": "crvRENBTC",
     "address": "0x49849C98ae39Fff122806C06791Fa73784FB3675"
   },
   {

@@ -6,7 +6,7 @@
   },
   {
     "name": "Curve Compound Pool",
-    "symbol": "crvCOMP",
+    "symbol": "Curve Compound",
     "address": "0x845838DF265Dcd2c412A1Dc9e959c7d08537f8a2"
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "name": "Curve 3pool",
-    "symbol": "3Crv",
+    "symbol": "Curve 3Crv",
     "address": "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "name": "Curve Y Pool",
-    "symbol": "yCRV",
+    "symbol": "Curve yCRV",
     "address": "0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8"
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "name": "Curve yBUSD Pool",
-    "symbol": "crvYBUSD",
+    "symbol": "Curve yBUSD",
     "address": "0x3B3Ac5386837Dc563660FB6a0937DFAa5924333B"
   },
   {
@@ -46,7 +46,7 @@
   },
   {
     "name": "Curve sBTC Pool",
-    "symbol": "crvSBTC",
+    "symbol": "Curve sBTC",
     "address": "0x075b1bb99792c9E1041bA13afEf80C91a1e70fB3"
   },
   {
@@ -56,7 +56,7 @@
   },
   {
     "name": "Curve USDT Pool",
-    "symbol": "crvUSDT",
+    "symbol": "Curve USDT",
     "address": "0x9fC689CCaDa600B6DF723D9E47D84d76664a1F23"
   },
   {
@@ -66,7 +66,7 @@
   },
   {
     "name": "Curve USDK Pool",
-    "symbol": "crvUSDK",
+    "symbol": "Curve USDK",
     "address": "0x97E2768e8E73511cA874545DC5Ff8067eB19B787"
   },
   {
@@ -76,7 +76,7 @@
   },
   {
     "name": "Curve RSV Pool",
-    "symbol": "crvRSV",
+    "symbol": "Curve RSV",
     "address": "0xC2Ee6b0334C261ED60C72f6054450b61B8f18E35"
   },
   {
@@ -86,7 +86,7 @@
   },
   {
     "name": "Curve PAX Pool",
-    "symbol": "crvPAX",
+    "symbol": "Curve PAX",
     "address": "0xD905e2eaeBe188fc92179b6350807D8bd91Db0D8"
   },
   {
@@ -96,7 +96,7 @@
   },
   {
     "name": "Curve GUSD Pool",
-    "symbol": "crvGUSD",
+    "symbol": "Curve GUSD",
     "address": "0xD2967f45c4f384DEEa880F807Be904762a3DeA07"
   },
   {
@@ -106,7 +106,7 @@
   },
   {
     "name": "Curve mUSD Pool",
-    "symbol": "crvMUSD",
+    "symbol": "Curve mUSD",
     "address": "0x1AEf73d49Dedc4b1778d0706583995958Dc862e6"
   },
   {
@@ -116,7 +116,7 @@
   },
   {
     "name": "Curve stETH Pool",
-    "symbol": "crvSTETH",
+    "symbol": "Curve stETH",
     "address": "0x06325440D014e39736583c165C2963BA99fAf14E"
   },
   {
@@ -126,7 +126,7 @@
   },
   {
     "name": "Curve EURS Pool",
-    "symbol": "crvEURS",
+    "symbol": "Curve EURS",
     "address": "0x194eBd173F6cDacE046C53eACcE9B953F28411d1"
   },
   {
@@ -136,7 +136,7 @@
   },
   {
     "name": "Curve USDN Pool",
-    "symbol": "crvUSDN",
+    "symbol": "Curve USDN",
     "address": "0x4f3E8F405CF5aFC05D68142F3783bDfE13811522"
   },
   {
@@ -146,7 +146,7 @@
   },
   {
     "name": "Curve UST Pool",
-    "symbol": "crvUST",
+    "symbol": "Curve UST",
     "address": "0x94e131324b6054c0D789b190b2dAC504e4361b53"
   },
   {
@@ -156,7 +156,7 @@
   },
   {
     "name": "Curve oBTC Pool",
-    "symbol": "crvOBTC",
+    "symbol": "Curve oBTC",
     "address": "0x2fE94ea3d5d4a175184081439753DE15AeF9d614"
   },
   {
@@ -166,7 +166,7 @@
   },
   {
     "name": "Curve pBTC Pool",
-    "symbol": "crvPBTC",
+    "symbol": "Curve pBTC",
     "address": "0xDE5331AC4B3630f94853Ff322B66407e0D6331E8"
   },
   {
@@ -176,7 +176,7 @@
   },
   {
     "name": "Curve tBTC Pool",
-    "symbol": "crvTBTC",
+    "symbol": "Curve tBTC",
     "address": "0x64eda51d3Ad40D56b9dFc5554E06F94e1Dd786Fd"
   },
   {
@@ -186,7 +186,7 @@
   },
   {
     "name": "Curve BBTC Pool",
-    "symbol": "crvBBTC",
+    "symbol": "Curve BBTC",
     "address": "0x410e3E86ef427e30B9235497143881f717d93c2A"
   },
   {
@@ -196,7 +196,7 @@
   },
   {
     "name": "Curve renBTC Pool",
-    "symbol": "crvRENBTC",
+    "symbol": "Curve renBTC",
     "address": "0x49849C98ae39Fff122806C06791Fa73784FB3675"
   },
   {
@@ -341,7 +341,7 @@
   },
   {
     "name": "Curve DUSD Pool",
-    "symbol": "crvDUSD",
+    "symbol": "Curve DUSD",
     "address": "0x3a664Ab939FD8482048609f652f9a0B0677337B9"
   },
   {
@@ -351,7 +351,7 @@
   },
   {
     "name": "Curve sUSD Pool",
-    "symbol": "crvSUSD",
+    "symbol": "Curve sUSD",
     "address": "0xC25a3A3b969415c80451098fa907EC722572917F"
   },
   {
@@ -361,7 +361,7 @@
   },
   {
     "name": "Curve HBTC Pool",
-    "symbol": "crvHBTC",
+    "symbol": "Curve HBTC",
     "address": "0xb19059ebb43466C323583928285a49f558E572Fd"
   },
   {
@@ -371,7 +371,7 @@
   },
   {
     "name": "Curve HUSD Pool",
-    "symbol": "crvHUSD",
+    "symbol": "Curve HUSD",
     "address": "0x5B5CFE992AdAC0C9D48E05854B2d91C73a003858"
   },
   {
@@ -381,7 +381,7 @@
   },
   {
     "name": "Curve Aave Pool",
-    "symbol": "crvAAVE",
+    "symbol": "Curve Aave",
     "address": "0xFd2a8fA60Abd58Efe3EeE34dd494cD491dC14900"
   },
   {
@@ -391,7 +391,7 @@
   },
   {
     "name": "Curve ankrETHc Pool",
-    "symbol": "crvAETHc",
+    "symbol": "Curve aETHc",
     "address": "0xaA17A236F2bAdc98DDc0Cf999AbB47D47Fc0A6Cf"
   },
   {
@@ -401,7 +401,7 @@
   },
   {
     "name": "Curve sETH Pool",
-    "symbol": "crvSETH",
+    "symbol": "Curve sETH",
     "address": "0xA3D87FffcE63B53E0d54fAa1cc983B7eB0b74A9c"
   },
   {
@@ -411,12 +411,12 @@
   },
   {
     "name": "Curve sAave Pool",
-    "symbol": "crvSAAVE",
+    "symbol": "Curve sAave",
     "address": "0x02d341CcB60fAaf662bC0554d13778015d1b285C"
   },
   {
     "name": "Curve Iron Bank Pool",
-    "symbol": "crvIB",
+    "symbol": "Curve Iron Bank",
     "address": "0x5282a4eF67D9C33135340fB3289cc1711c13638C"
   },
   {
@@ -426,7 +426,7 @@
   },
   {
     "name": "Curve USDP Pool",
-    "symbol": "crvUSDP",
+    "symbol": "Curve USDP",
     "address": "0x7Eb40E450b9655f4B3cC4259BCC731c63ff55ae6"
   },
   {
@@ -451,7 +451,7 @@
   },
   {
     "name": "Curve LINK Pool",
-    "symbol": "crvLINK",
+    "symbol": "Curve LINK",
     "address": "0xcee60cFa923170e4f8204AE08B4fA6A3F5656F3a"
   },
   {
@@ -481,32 +481,32 @@
   },
   {
     "name": "Curve LUSD Pool",
-    "symbol": "crvLUSD",
+    "symbol": "Curve LUSD",
     "address": "0xEd279fDD11cA84bEef15AF5D39BB4d4bEE23F0cA"
   },
   {
     "name": "Curve FRAX Pool",
-    "symbol": "crvFRAX",
+    "symbol": "Curve FRAX",
     "address": "0xd632f22692FaC7611d2AA1C0D552930D43CAEd3B"
   },
   {
     "name": "Curve TUSD Pool",
-    "symbol": "crvTUSD",
+    "symbol": "Curve TUSD",
     "address": "0xEcd5e75AFb02eFa118AF914515D6521aaBd189F1"
   },
   {
     "name": "Curve BUSD Pool",
-    "symbol": "crvBUSD",
+    "symbol": "Curve BUSD",
     "address": "0x4807862AA8b2bF68830e4C8dc86D0e9A998e085a"
   },
   {
     "name": "Curve alUSD Pool",
-    "symbol": "crvALUSD",
+    "symbol": "Curve alUSD",
     "address": "0x43b4FdFD4Ff969587185cDB6f0BD875c5Fc83f8c"
   },
   {
     "name": "Curve rETH Pool",
-    "symbol": "crvRETH",
+    "symbol": "Curve rETH",
     "address": "0x53a901d48795C58f485cBB38df08FA96a24669D5"
   },
   {
@@ -516,12 +516,12 @@
   },
   {
     "name": "Curve triCrypto Pool",
-    "symbol": "crvTricrypto",
+    "symbol": "Curve triCrypto",
     "address": "0xcA3d75aC011BF5aD07a98d02f18225F9bD9A6BDF"
   },
   {
     "name": "Curve 3Crypto Pool",
-    "symbol": "3Crypto",
+    "symbol": "Curve 3Crypto",
     "address": "0xc4AD29ba4B3c580e6D59105FFf484999997675Ff"
   },
   {
@@ -561,12 +561,12 @@
   },
   {
     "name": "Curve EURT Pool",
-    "symbol": "crvEURT",
+    "symbol": "Curve EURT",
     "address": "0xFD5dB7463a3aB53fD211b4af195c5BCCC1A03890"
   },
   {
     "name": "Curve MIM Pool",
-    "symbol": "crvMIM",
+    "symbol": "Curve MIM",
     "address": "0x5a6A4D54456819380173272A5E8E9B9904BdF41B"
   },
   {
@@ -576,12 +576,12 @@
   },
   {
     "name": "Curve ibEUR Pool",
-    "symbol": "crvIBEUR",
+    "symbol": "Curve ibEUR",
     "address": "0x19b080FE1ffA0553469D20Ca36219F17Fcf03859"
   },
   {
     "name": "Curve cvxCRV Pool",
-    "symbol": "crvCVXCRV",
+    "symbol": "Curve cvxCRV",
     "address": "0x9D0464996170c6B9e75eED71c68B99dDEDf279e8"
   }
 ]

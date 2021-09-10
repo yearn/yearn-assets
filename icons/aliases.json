@@ -521,7 +521,7 @@
   },
   {
     "name": "Curve 3Crypto Pool",
-    "symbol": "3Crypto",
+    "symbol": "Curve 3Crypto",
     "address": "0xc4AD29ba4B3c580e6D59105FFf484999997675Ff"
   },
   {
@@ -573,5 +573,15 @@
     "name": "Yearn Compounding veCRV yVault",
     "symbol": "yvBOOST",
     "address": "0x9d409a0A012CFbA9B15F6D4B36Ac57A46966Ab9a"
+  },
+  {
+    "name": "Curve ibEUR Pool",
+    "symbol": "crvIBEUR",
+    "address": "0x19b080FE1ffA0553469D20Ca36219F17Fcf03859"
+  },
+  {
+    "name": "Curve cvxCRV Pool",
+    "symbol": "crvCVXCRV",
+    "address": "0x9D0464996170c6B9e75eED71c68B99dDEDf279e8"
   }
 ]

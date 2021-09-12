@@ -583,5 +583,30 @@
     "name": "Curve cvxCRV Pool",
     "symbol": "Curve cvxCRV",
     "address": "0x9D0464996170c6B9e75eED71c68B99dDEDf279e8"
+  },
+  {
+    "name": "Curve ibKRW Pool",
+    "symbol": "Curve ibKRW",
+    "address": "0x8461A004b50d321CB22B7d034969cE6803911899"
+  },
+  {
+    "name": "Curve ibAUD Pool",
+    "symbol": "Curve ibAUD",
+    "address": "0x3F1B0278A9ee595635B61817630cC19DE792f506"
+  },
+  {
+    "name": "Curve ibCHF Pool",
+    "symbol": "Curve ibCHF",
+    "address": "0x9c2C8910F113181783c249d8F6Aa41b51Cde0f0c"
+  },
+  {
+    "name": "Curve ibGBP Pool",
+    "symbol": "Curve ibGBP",
+    "address": "0xD6Ac1CB9019137a896343Da59dDE6d097F710538"
+  },
+  {
+    "name": "Curve ibJPY Pool",
+    "symbol": "Curve ibJPY",
+    "address": "0x8818a9bb44Fbf33502bE7c15c500d0C783B73067"
   }
 ]

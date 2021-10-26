@@ -608,5 +608,25 @@
     "name": "Curve ibJPY Pool",
     "symbol": "Curve ibJPY",
     "address": "0x8818a9bb44Fbf33502bE7c15c500d0C783B73067"
+  },
+  {
+    "name": "Curve alETH Pool",
+    "symbol": "Curve alETH",
+    "address": "0xC4C319E2D4d66CcA4464C0c2B32c9Bd23ebe784e"
+  },
+  {
+    "name": "Curve USDM Pool",
+    "symbol": "Curve USDM",
+    "address": "0x5B3b5DF2BF2B6543f78e053bD91C4Bdd820929f1"
+  },
+  {
+    "name": "Curve EURN Pool",
+    "symbol": "Curve EURN",
+    "address": "0x3Fb78e61784C9c637D560eDE23Ad57CA1294c14a"
+  },
+  {
+    "name": "Curve MIM-UST Pool",
+    "symbol": "Curve MIM-UST",
+    "address": "0x55A8a39bc9694714E2874c1ce77aa1E599461E18"
   }
 ]

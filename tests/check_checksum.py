@@ -1,7 +1,7 @@
 import os
 import eth_utils
 
-base = "icons"
+base = "icons/multichain-tokens"
 
 
 def checksum_encode(addr):

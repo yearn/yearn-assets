@@ -3,7 +3,7 @@ import time
 
 import requests
 
-base = os.path.join("icons", "tokens")
+base = os.path.join("icons", "multichain-tokens")
 sleep_time = 0.5
 
 eth_address = "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"

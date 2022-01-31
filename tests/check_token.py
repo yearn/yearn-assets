@@ -3,7 +3,7 @@ import time
 
 import requests
 
-base = os.path.join("icons", "tokens")
+base = os.path.join("icons", "multichain-tokens")
 sleep_time = 0.5
 
 eth_address = "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
@@ -42,20 +42,21 @@ def get_info(token):
 
 
 def main():
-    ok = True
-    for token in os.listdir(base):
-        root = os.path.join(base, token)
-        for required in required_files:
-            required = os.path.join(root, required)
-            if not os.path.exists(required):
-                print(f"Error: {required} does not exist but it's required.")
-                ok = False
-            if ethplorer:
-                token_info = get_info(token)
-                if token_info is None:
-                    print(f"Error: {token} could not be fetched.")
+    ok = True    
+    for chain in os.listdir(base):
+        root = os.path.join(base, chain)
+        for token in os.listdir(root):
+            for required in required_files:
+                required = os.path.join(root, token, required)
+                if not os.path.exists(required):
+                    print(f"Error: {required} does not exist but it's required.")
                     ok = False
-                time.sleep(sleep_time)
+                if ethplorer:
+                    token_info = get_info(token)
+                    if token_info is None:
+                        print(f"Error: {token} could not be fetched.")
+                        ok = False
+                    time.sleep(sleep_time)
     if not ok:
         exit(1)
 

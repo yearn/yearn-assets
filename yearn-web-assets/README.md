@@ -4,7 +4,12 @@
 
 Tokens assets for the Yearns web projects.
 ## Install
+This package is handled by Github's system. In order to be able to install it, first add the following to your `.npmrc` file:
+```
+@yearn:registry=https://npm.pkg.github.com
+```
 
+Then you can install is as usual:
 ```bash
 yarn add @yearn/yearn-web-assets
 ```

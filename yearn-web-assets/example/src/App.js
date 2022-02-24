@@ -27,6 +27,12 @@ const App = () => {
         width={48}
         height={48}
         chainID={'250'} />
+        <Token
+        format={'img'}
+        address={'0x0FCDAeDFb8A7DfDa2e9838564c5A1665d856AFeF'}
+        width={48}
+        height={48}
+        chainID={'250'} />
       </div>
   );
 }

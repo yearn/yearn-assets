@@ -4,8 +4,8 @@ const Fallback = ({width = 32, height = 32}) => {
 	return (
 		<div style={{
 			borderRadius: 99999,
-			width: width,
-			height: height,
+			width: width - 2,
+			height: height - 2,
 			background: '#F9FBFD',
 			border: '1px solid #E0EAFF'
 		}} />

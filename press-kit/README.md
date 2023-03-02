@@ -10,13 +10,13 @@ All assets are living in [Figma](https://www.figma.com/file/3ps5V85ERU1BhYBO37cY
 
 SVG assets don't lose quality when scaled, but they might not be compatible with some platforms.
 
-PNG assets lose quality when scaled but they have wide compatibility accross all platforms.
+PNG assets lose quality when scaled but they have wide compatibility across all platforms.
 
 ## Colors
 
 We have 3 colors in total: 1 primary color and 2 secondary colors.
 
-We mostly use primary one for accents and secondary ones for gradients.
+We mostly use the primary one for accents and the secondary ones for gradients.
 
 - Primary Blue: `#0657F9`
 
@@ -26,11 +26,11 @@ We mostly use primary one for accents and secondary ones for gradients.
 
 ## Fonts
 
-We have 2 fonts, one primary, one secondary.
+We have 2 fonts, one primary, and one secondary.
 
-We use the primary font for almost everything, like titles, paragraphs and logo.
+We use the primary font for almost everything, like titles, paragraphs, and logos.
 
-And we use the secondary font for numerals/metrics and any text block that requires same width lines.
+And we use the secondary font for numerals/metrics and any text block that requires same-width lines.
 
 Primary font: [Roboto](https://github.com/googlefonts/roboto), [example](https://fonts.google.com/specimen/Roboto?preview.text=yearn.finance%20is%20a%20blue%20chip&preview.text_type=custom)
 

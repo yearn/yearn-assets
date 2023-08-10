@@ -1,0 +1,50 @@
+name: New Issue
+description: Hello, friend new issue? Please help us by answering the questions below. The more detail you can give us, the less 2am DMs you'll be getting from Basic or Klim. Thanks!
+projects: ["yearn/24"]
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview 
+      description: What is the issue? 
+      placeholder: |
+          - What should it have done?
+    validations:
+      required: true
+  - type: textarea
+    id: functionality
+    attributes:
+      label: Functionality
+      description: Step by step of the user's path to use certain functionality that you want implemented.
+      placeholder: |
+          e.g Deposit function
+
+          1. User connects wallet
+          2. User clicks "New Product icon"
+          3. User enters the amount to deposit
+          4. User click deposit and the magic happens
+    validations:
+      required: true
+  - type: textarea
+    id: thoughts
+    attributes:
+      label: Thoughts
+      description: Any Questions for Xopowo?
+    validations:
+      required: false
+  - type: input
+    id: team
+    attributes:
+      label: Team
+      description: What team/repository is this issue falling under?
+      placeholder: yDaemon, Yearn.fi, ect.
+    validations:
+      required: false
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      description: When do you expect to finish it?
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true

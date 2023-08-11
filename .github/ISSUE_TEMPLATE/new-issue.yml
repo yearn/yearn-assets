@@ -1,50 +1,36 @@
 name: New Issue
-description: Hello, friend new issue? Please help us by answering the questions below. The more detail you can give us, the less 2am DMs you'll be getting from Basic or Klim. Thanks!
+description: Hello, friend new project? Please help us by answering the questions below. The more detail you can give us, the less 2am DMs you'll be getting from Basic or Klim. Thanks!
 projects: ["yearn/24"]
 body:
-  - type: textarea
-    id: overview
+  - type: dropdown
+    id: category
     attributes:
-      label: Overview 
-      description: What is the issue? 
-      placeholder: |
-          - What should it have done?
+      label: Category
+      description: Let us know which category your issue falls under. 
+      options:
+        - icons
+        - protocols
+        - press-kit
+        - tests
+        - other
+      default: icons
     validations:
       required: true
   - type: textarea
-    id: functionality
+    id: overview
     attributes:
-      label: Functionality
-      description: Step by step of the user's path to use certain functionality that you want implemented.
+      label: Overview
+      description: What would you like us to add or improve?
       placeholder: |
-          e.g Deposit function
-
-          1. User connects wallet
-          2. User clicks "New Product icon"
-          3. User enters the amount to deposit
-          4. User click deposit and the magic happens
+          - If for icons which ones are missing?
+          - Which chain is this on?
+          - If for protocols where are the assets we can add stored?
     validations:
       required: true
   - type: textarea
     id: thoughts
     attributes:
       label: Thoughts
-      description: Any Questions for Xopowo?
+      description: Any Questions for the Asset team?
     validations:
       required: false
-  - type: input
-    id: team
-    attributes:
-      label: Team
-      description: What team/repository is this issue falling under?
-      placeholder: yDaemon, Yearn.fi, ect.
-    validations:
-      required: false
-  - type: input
-    id: deadline
-    attributes:
-      label: Deadline
-      description: When do you expect to finish it?
-      placeholder: YYYY-MM-DD
-    validations:
-      required: true

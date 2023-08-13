@@ -1,30 +1,30 @@
 name: New Issue
-description: Hello, friend new project? Please help us by answering the questions below. The more detail you can give us, the less 2am DMs you'll be getting from Basic or Klim. Thanks!
+description: Hello friend, new issue? Please help us by answering the questions below. The more detail you can give us, the less 2am DMs you'll be getting from Basic or Klim. Thanks!
+title: "Icons: "
 projects: ["yearn/24"]
 body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: What would you like us to add or improve? 
+      placeholder: |
+          - If for icons which ones are missing?
+          - Which chain is this on?
+          - If for protocols where are the assets we can add stored?
+    validations:
+      required: true
   - type: dropdown
     id: category
     attributes:
       label: Category
       description: Let us know which category your issue falls under. 
       options:
-        - icons
-        - protocols
-        - press-kit
-        - tests
-        - other
-      default: icons
-    validations:
-      required: true
-  - type: textarea
-    id: overview
-    attributes:
-      label: Overview
-      description: What would you like us to add or improve?
-      placeholder: |
-          - If for icons which ones are missing?
-          - Which chain is this on?
-          - If for protocols where are the assets we can add stored?
+        - Icons
+        - Protocols
+        - Press-kit
+        - Tests
+        - Other
     validations:
       required: true
   - type: textarea

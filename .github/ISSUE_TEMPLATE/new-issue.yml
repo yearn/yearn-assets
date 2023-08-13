@@ -7,7 +7,7 @@ body:
     id: overview
     attributes:
       label: Overview
-      description: What would you like us to add or improve? 
+      description: What would you like us to add or improve?
       placeholder: |
           - If for icons which ones are missing?
           - Which chain is this on?
